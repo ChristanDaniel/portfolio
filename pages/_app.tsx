@@ -1,3 +1,5 @@
+import React from 'react'
+
 import '../styles/globals.ts'
 import type { AppProps } from 'next/app'
 
