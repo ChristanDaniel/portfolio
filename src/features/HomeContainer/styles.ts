@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const MainContainer = styled.main`
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin-top: 80px;
-`;
+`
 
 const PresentationContent = styled.div`
   p {
@@ -29,7 +29,7 @@ const PresentationContent = styled.div`
     color: #ffff;
     font-weight: bold;
   }
-`;
+`
 
 const ButtonContent = styled.div`
   margin-top: 30px;
@@ -54,6 +54,6 @@ const SocialMidiaContent = styled.ul`
   }
 `
 
-const ImageContent = styled.div``;
+const ImageContent = styled.div``
 
-export { MainContainer, PresentationContent, ButtonContent, ImageContent, SocialMidiaContent };
+export { MainContainer, PresentationContent, ButtonContent, ImageContent, SocialMidiaContent }
