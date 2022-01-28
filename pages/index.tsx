@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Portifolio</title>
+        <title>Portfólio</title>
       </Head>
       <HomeContainer />
     </>
