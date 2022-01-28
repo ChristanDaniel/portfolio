@@ -7,7 +7,7 @@ import { MainContainer, AboutContent, TitleContainer, DescriptionAbout } from '.
 const AboutContainer = (): JSX.Element => {
   return (
     <>
-      <MainContainer>
+      <MainContainer id="Sobre">
         <TitleContainer>
           <FiChevronsRight /> Sobre mim
         </TitleContainer>

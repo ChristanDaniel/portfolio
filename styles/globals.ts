@@ -15,7 +15,13 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
+  a {
+    text-decoration: none;
+    color: #ffff;
+  }
+
   html {
+    scroll-behavior: smooth;
 
     @media (max-width: 1080px) {
       font-size: 93,75%; //15px

@@ -9,7 +9,7 @@ import Projects from '../../components/Projects'
 const ProjectContainer = (): JSX.Element => {
   return (
     <>
-      <MainContainer>
+      <MainContainer id="Projetos">
         <TitleContainer>
           <FiChevronsRight /> Meus Projetos
         </TitleContainer>

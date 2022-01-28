@@ -2,8 +2,10 @@ import styled from 'styled-components'
 
 const MainContainer = styled.main`
   width: 100%;
+  height: calc(100vh - 5rem);
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 80px;
 `
 
@@ -54,6 +56,8 @@ const SocialMidiaContent = styled.ul`
   }
 `
 
-const ImageContent = styled.div``
+const ImageContent = styled.div`
+  margin-top: 90px;
+`
 
 export { MainContainer, PresentationContent, ButtonContent, ImageContent, SocialMidiaContent }

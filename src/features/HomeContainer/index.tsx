@@ -12,11 +12,12 @@ import AvatarMale from '../../../public/HomeImage.png'
 import Button from '../../components/Button'
 import AboutContainer from '../AboutContainer'
 import FooterContainer from '../FooterContainer'
+import ProjectContainer from '../ProjectContainer'
 
 const HomeContainer = (): JSX.Element => {
   return (
     <>
-      <MainContainer>
+      <MainContainer id="Home">
         <PresentationContent>
           <div>
             <p>👏 Hey, Sejá bem vindo</p>
@@ -54,6 +55,7 @@ const HomeContainer = (): JSX.Element => {
         </ImageContent>
       </MainContainer>
       <AboutContainer />
+      <ProjectContainer />
       <FooterContainer />
     </>
   )
