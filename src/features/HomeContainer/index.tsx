@@ -10,6 +10,8 @@ import Image from 'next/image'
 import AvatarMale from '../../../public/HomeImage.png'
 
 import Button from '../../components/Button'
+import AboutContainer from '../AboutContainer'
+import FooterContainer from '../FooterContainer'
 
 const HomeContainer = (): JSX.Element => {
   return (
@@ -19,10 +21,10 @@ const HomeContainer = (): JSX.Element => {
           <div>
             <p>👏 Hey, Sejá bem vindo</p>
             <h1>
-              Ao meu oficial Website sou <br />
-              <span>Desenvolvedor Front-End</span>.
+              Ao meu oficial Website <br />
+              sou <span>Dev Front-End</span>.
             </h1>
-            <p>acesse mais para saber sobre mim</p>
+            {/* <p>acesse mais para saber sobre mim</p> */}
           </div>
 
           <ButtonContent>
@@ -51,6 +53,8 @@ const HomeContainer = (): JSX.Element => {
           <Image src={AvatarMale} alt="My-Image" height={480} width={480} />
         </ImageContent>
       </MainContainer>
+      <AboutContainer />
+      <FooterContainer />
     </>
   )
 }
