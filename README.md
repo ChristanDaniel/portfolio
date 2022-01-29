@@ -22,3 +22,24 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - `src/components/` -> Pasta de todos componentes do app.
 - `src/Features/` -> Pasta de todas Features do app.
 - `src/styles/global.ts` -> Arquivo de css global do app.
+
+## 📥 Instalação e execução
+
+Faça um clone desse repositório e acesse o diretório.
+
+```bash
+$ git clone https://github.com/ChristanDaniel/portfolio.git
+```
+```bash
+# Instalando as dependências
+$ yarn
+
+# Executanto aplicação
+$ yarn dev
+
+```
+Tudo Pronto? Agora é só acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+
+
+---
+Feito com 🧡 by Christian Daniel 👋🏻
