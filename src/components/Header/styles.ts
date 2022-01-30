@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const HeaderContainer = styled.header`
   position: fixed;
   z-index: 10;
-  height: 75px;
+  height: 65px;
   width: 100%;
   top: 0;
 
@@ -20,23 +20,22 @@ const NameContent = styled.h2`
 `
 
 const LiContent = styled.li`
-  height: 75px;
+  height: 65px;
   display: flex;
-  position: relative;
   align-items: center;
 
   a {
-    padding: 0 0.5rem;
-    height: 75px;
-    line-height: 80px;
+    padding: 0 0.8px;
+    height: 65px;
+    line-height: 70px;
     color: #fff;
 
-    transition: 0.3s;
+    transition: color 0.3s;
 
     &:hover {
       color: #6a98f0;
       font-weight: bold;
-      border-bottom: 3px solid #6a98f0;
+      border-bottom: 2px solid #6a98f0;
       border-bottom-left-radius: 3px;
       border-bottom-right-radius: 3px;
       width: 100%;
