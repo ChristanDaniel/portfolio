@@ -1,26 +1,22 @@
-import { useRouter } from 'next/router'
 import React from 'react'
 
-import { HeaderContainer, NameContent, NavigationItens } from './styles'
+import { HeaderContainer, NameContent, NavigationItens, LiContent } from './styles'
 
 const Header = (): JSX.Element => {
-  const { asPath } = useRouter()
-
-  console.log(asPath)
   return (
     <>
       <HeaderContainer>
         <NameContent>Christian Daniel</NameContent>
         <NavigationItens>
-          <li>
+          <LiContent>
             <a href="#Home">Home</a>
-          </li>
-          <li>
+          </LiContent>
+          <LiContent>
             <a href="#Sobre">Sobre Mim</a>
-          </li>
-          <li>
+          </LiContent>
+          <LiContent>
             <a href="#Projetos">Projetos</a>
-          </li>
+          </LiContent>
         </NavigationItens>
       </HeaderContainer>
     </>

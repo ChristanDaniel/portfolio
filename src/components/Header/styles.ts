@@ -23,37 +23,6 @@ const NavigationItens = styled.ul`
   margin-right: 170px;
   display: flex;
   gap: 18px;
-
-  a {
-    display: inline-block;
-    position: relative;
-    padding: 0 0.5rem;
-    height: 5rem;
-    line-height: 5rem;
-    color: var(--gray-300);
-
-    transition: color 0.2s;
-
-    &:hover {
-      color: var(--white);
-    }
-
-    &.active {
-      color: var(--white);
-      font-weight: bold;
-    }
-
-    &.active::after {
-      content: '';
-      height: 3px;
-      border-radius: 3px 3px 0 0;
-      width: 100%;
-      position: absolute;
-      bottom: 1px;
-      left: 0;
-      background: var(--yellow-500);
-    }
-  }
 `
 
-export { HeaderContainer, NameContent, NavigationItens }
+export { HeaderContainer, NameContent, NavigationItens, LiContent }
