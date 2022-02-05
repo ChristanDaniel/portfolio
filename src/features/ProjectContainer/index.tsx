@@ -44,6 +44,17 @@ const ProjectContainer = (): JSX.Element => {
           githubLink={'https://github.com/ChristanDaniel/store-app'}
           siteLink={'https://igstore.vercel.app/'}
         />
+
+        <DividingLine />
+
+        <Projects
+          name={'Marvel-App'}
+          description={'Marvel-app é um projeto para listagem de personagem com o uso Marvel Comics API'}
+          FirstImg={'https://user-images.githubusercontent.com/80167149/152647453-cf5d5dd1-3f68-40cc-b8ae-aa40a1ffde98.png'}
+          SecondImg={'https://user-images.githubusercontent.com/80167149/152647455-09c6fb67-fc17-49d4-91d6-5cb632ca0014.png'}
+          githubLink={'https://github.com/ChristanDaniel/marvel-app'}
+          siteLink={''}
+        />
       </MainContainer>
     </>
   )
