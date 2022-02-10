@@ -22,7 +22,7 @@ const HomeContainer = (): JSX.Element => {
               Ao meu oficial Website <br />
               sou <span>Dev Front-End</span>.
             </h1>
-            <p>acesse minhas redes sociais abaixo</p>
+            <p>acesse minhas redes sociais</p>
           </div>
 
           <SocialMidiaContent>
@@ -44,7 +44,7 @@ const HomeContainer = (): JSX.Element => {
           </SocialMidiaContent>
         </PresentationContent>
         <ImageContent>
-          <Image src={AvatarMale} alt="My-Image" height={480} width={480} />
+          <Image src={AvatarMale} alt="My-Image" width={480} height={480} layout="intrinsic" />
         </ImageContent>
       </MainContainer>
       <AboutContainer />
