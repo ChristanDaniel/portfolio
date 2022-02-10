@@ -1,5 +1,3 @@
-import React from 'react'
-
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
 
 import { Swiper, SwiperSlide } from 'swiper/react'

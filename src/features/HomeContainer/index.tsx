@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { MainContainer, PresentationContent, ImageContent, SocialMidiaContent } from './styles'
 
 import { AiFillGithub } from 'react-icons/ai'
@@ -9,7 +7,6 @@ import { AiFillInstagram } from 'react-icons/ai'
 import Image from 'next/image'
 import AvatarMale from '../../../public/HomeImage.png'
 
-// import Button from '../../components/Button'
 import AboutContainer from '../AboutContainer'
 import FooterContainer from '../FooterContainer'
 import ProjectContainer from '../ProjectContainer'
@@ -28,10 +25,6 @@ const HomeContainer = (): JSX.Element => {
             <p>acesse minhas redes sociais abaixo</p>
           </div>
 
-          {/* <ButtonContent>
-            <Button id="about-buttons">Sobre Mim</Button>
-            <Button id="about-buttons">Portifolio</Button>
-          </ButtonContent> */}
           <SocialMidiaContent>
             <a href="https://github.com/ChristanDaniel" target="_blank" rel="noreferrer noopener">
               <li>

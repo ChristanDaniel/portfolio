@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { MainContainer, TitleContainer, DividingLine } from './styles'
 
 import { FiChevronsRight } from 'react-icons/fi'

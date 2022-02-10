@@ -1,5 +1,4 @@
 import { ButtonHTMLAttributes } from 'react'
-import React from 'react'
 
 import { Buttons } from './styles'
 

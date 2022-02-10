@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { HeaderContainer, NameContent, NavigationItens, LiContent } from './styles'
 
 const Header = (): JSX.Element => {
