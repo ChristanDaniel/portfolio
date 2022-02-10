@@ -6,7 +6,7 @@ const ProjectContent = styled.div`
   width: 100%;
   padding: 150px 0px 50px 0px;
 
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1080px) {
     flex-direction: column;
     align-items: center;
   }
@@ -70,7 +70,7 @@ const ImageProjectsContent = styled.div`
   width: 500px;
   height: 243px;
 
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1080px) {
     margin-top: 25px;
     margin-right: 80px;
   }

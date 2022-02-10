@@ -8,7 +8,7 @@ const MainContainer = styled.main`
   align-items: center;
   margin-top: 80px;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     margin-top: 150px;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@ const MainContainer = styled.main`
 `
 
 const PresentationContent = styled.div`
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     display: flex;
   }
 
@@ -27,7 +27,7 @@ const PresentationContent = styled.div`
     font-weight: bold;
     color: #ffff;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
       font-size: 18px;
     }
   }
@@ -37,7 +37,7 @@ const PresentationContent = styled.div`
     font-weight: bold;
     color: #ffff;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
       font-size: 40px;
     }
   }
@@ -68,7 +68,7 @@ const SocialMidiaContent = styled.ul`
   margin-top: 20px;
   gap: 16px;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     flex-direction: column;
     margin-left: 50px;
     margin-top: 0;
@@ -79,7 +79,7 @@ const SocialMidiaContent = styled.ul`
     width: 40px;
     color: #ffff;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
       height: 30px;
       width: 30px;
     }
@@ -87,7 +87,7 @@ const SocialMidiaContent = styled.ul`
 `
 
 const ImageContent = styled.div`
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     margin: 0;
   }
   margin-top: 90px;

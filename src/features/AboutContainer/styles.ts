@@ -11,7 +11,7 @@ const AboutContent = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     flex-direction: column;
   }
 
