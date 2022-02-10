@@ -6,6 +6,11 @@ const ProjectContent = styled.div`
   width: 100%;
   padding: 150px 0px 50px 0px;
 
+  @media screen and (max-width: 950px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   img {
     height: 243px;
     width: 500px;
@@ -64,6 +69,11 @@ const ImageProjectsContent = styled.div`
   position: relative;
   width: 500px;
   height: 243px;
+
+  @media screen and (max-width: 950px) {
+    margin-top: 25px;
+    margin-right: 80px;
+  }
 `
 
 export { ProjectContent, DescriptionProject, IconProject, ButtonContent, ImageProjectsContent }
