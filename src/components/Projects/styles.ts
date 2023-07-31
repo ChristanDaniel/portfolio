@@ -4,7 +4,7 @@ const ProjectContent = styled.div`
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 150px 0px 50px 0px;
+  padding-block: 150px 50px;
 
   @media screen and (max-width: 1080px) {
     flex-direction: column;
